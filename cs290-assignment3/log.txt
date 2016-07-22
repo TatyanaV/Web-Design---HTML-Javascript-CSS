@@ -1,0 +1,8 @@
+Start: Sun, 1 Feb 2015 08:00:00 -0800
+End: Sun, 1 Feb 2015 13:08:18 -0800
+Tasks: 1st commit of the src directory
+
+
+Start: Sun, 1 Feb 2015 13:08:18 -0800
+End: Sun, 1 Feb 2015 13:57:25 -0800
+Tasks: 2nd commit after fixing all bugs

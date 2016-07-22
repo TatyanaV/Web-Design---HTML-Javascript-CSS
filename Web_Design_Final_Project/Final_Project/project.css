@@ -1,0 +1,422 @@
+
+.contents {
+	border: 5px #888 solid; border-radius: 5px;
+	width: 1000px;
+	margin: 1em auto;
+	margin-top:0px;
+}
+
+.title {
+	border: 1px #888 solid;
+	padding-left: 5px;
+}
+#map {
+	height: 600px;
+	border: 1px #888 solid;
+	padding: 5px;
+}
+
+#start, #distance, #time, #speed, #elevation {
+	margin-bottom: 5px;
+	padding-bottom: 5px;
+	font-weight: bold;
+}
+
+html, body {
+  height: 100%;
+  width: 100%;
+  padding: 0;
+  margin: 0;
+}
+
+#full-screen-background-image {
+  z-index: -999;
+  min-height: 100%;
+  min-width: 1024px;
+  width: 100%;
+  height: auto;
+  position: fixed;
+  top: 0;
+  left: 0;
+}
+
+#wrapper {
+  position: relative;
+  width: 800px;
+  min-height: 400px;
+  margin: 100px auto;
+  color: #333;
+  	 font: arial;
+	 font-weight: bold;
+	 font-size: 200%;
+	
+}
+
+
+   #nav {
+      width: 100%;
+      float: left;
+      margin: 0 0 3em 0;
+      padding: 0;
+      list-style: none;
+      background-color: white;
+      border-bottom: 1px solid #ccc; 
+      border-top: 1px solid #ccc; }
+   #nav li {
+      float: left; }
+   #nav li a {
+      display: block;
+      padding: 8px 15px;
+      text-decoration: none;
+      font-weight: bold;
+      color: #069;
+      border-right: 1px solid #ccc; }
+   #nav li a:hover {
+      color: #c00;
+      background-color: #fff; }
+   /* End navigation bar styling. */
+   
+	  
+	  
+   h1 {
+      font-size: 1.5em;
+      padding: 1em 8px;
+      color: #333;
+      background-color: #069;
+      margin: 0; }
+   #content {
+      padding: 0 50px 50px; }
+
+#linklist{
+  position: absolute;
+  background-color: #efefef;
+  z-index: 9999;
+  display: none;
+}
+/*only for those that are in #linklist*/
+#linklist>li>a{
+  color: #121;
+  width: auto;
+}
+/*for all */
+#nav li a:hover{
+  background-color: #5884d6;
+  color: #fff;
+}
+/*for #linklist submenu*/
+#nav li:hover #linklist{
+  display: block;
+}
+
+#header1{ color:white;}
+
+h3{
+color: #000099;
+}
+
+#full-screen-background-image {
+  z-index: -999;
+  min-height: 100%;
+  min-width: 1024px;
+  width: 100%;
+  height: auto;
+  position: fixed;
+  top: 0;
+  left: 0;
+}
+.background1{
+    width:100%;
+    height:100%;
+    top:0px;
+    left:0px;
+    bottom:0px;
+    right:0px;
+}
+.bgcolor {
+    position:absolute;
+    width:100%;
+    height:100%;
+    top:0px;
+    left:0px;
+    bottom:0px;
+    right:0px;
+    background-color:#000000;
+    opacity:0.5;
+}
+
+.box {
+    min-width:220px;
+    min-height:80px;
+    background:#ffffff;
+    border:1px solid grey;
+    padding:20px;
+    -webkit-border-radius:10px;
+    border-radius:10px;
+    -webkit-box-shadow:#333 5px 5px 2px;
+	   width: 490px;
+    margin: auto;
+}
+
+.mytext {
+    width: 300px;
+	font-family: Arial;
+}
+
+.mytext2 {
+    width: 305px;
+	font-family: Arial;
+	
+}
+
+#name{
+font-family: Arial;
+
+
+}
+
+#name1{
+font-family: Arial;
+color:#6F4E37;
+ text-align:center;
+
+}
+
+
+
+
+h3 {
+margin-top:10px;
+padding-top: 5px;
+margin-bottom: 8px;
+color: #000099;
+}
+
+h3 span { font-size:14px; 
+color:black;}
+
+table{
+text-align: center;
+border-collapse: collapse;
+width: 1000px;
+padding: 10px;
+}
+
+td, th{
+border: 1px #888 solid;
+padding: 10px;
+}
+
+
+
+
+
+
+
+
+
+
+body {
+	font-family: sans-serif;
+	font-size: 11pt;
+	width: 1000px;
+	margin: 0 auto;
+}
+header {
+	padding-left: 5px;
+	padding-top: 5px;
+	padding-bottom: 0px;
+	margin-bottom:-2px;
+}
+.contents {
+	border: 5px #888 solid; border-radius: 5px;
+	width: 1000px;
+	margin: 1em auto;
+	margin-top:0px;
+}
+.title {
+	border: 1px #888 solid;
+	padding-left: 5px;
+}
+#map {
+	height: 600px;
+	border: 1px #888 solid;
+	padding: 5px;
+}
+#upload_form {
+	height: 350px;
+	width: 600px;
+	border: 1px #888 solid;
+	margin: 0 auto;
+	margin-top: 75px;
+	padding-left: 100px;
+	padding-top: 30px;
+}
+#login_form, #register_form {
+	height: 300px;
+	width: 400px;
+	border: 1px #888 solid;
+	margin: 0 auto;
+	margin-top: 40px;
+	padding-left: 100px;
+	padding-top: 30px;
+}
+#login_button {
+	margin-top: 25px;
+}
+#activities {
+	padding: 0px;
+}
+#upload_title {
+	font-size: 1.5em;
+	font-weight: bold;
+	color: #000099;
+	text-align:center;	
+	margin-top: -15px;
+	margin-left: -100px;
+}
+#join_title {
+	font-size: 1.5em;
+	font-weight: bold;
+	color: #000099;
+	text-align:center;	
+	margin-top: 50px;
+	margin-left: 0px;
+}
+jo
+#top_row {
+	color: #000099;
+}
+.results {
+	display: inline-block;
+	border: 1px #888 solid;
+	width: 248px;
+	text-align:center;
+	margin-right: -4px;
+}
+table{
+	text-align: center;
+	border-collapse: collapse;
+	width: 1000px;
+	padding: 10px;
+}
+td, th{
+	border: 1px #888 solid;
+	padding: 10px;
+}
+h2,h3,h4 {
+	margin-top:0px;
+	padding-top: 5px;
+	margin-bottom: 5px;
+	color: #000099;
+}
+h4 {
+	color: black;
+}
+#start, #distance, #time, #speed, #elevation {
+	margin-bottom: 5px;
+	padding-bottom: 5px;
+	font-weight: bold;
+}
+#navigation	ul {
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	overflow: hidden;
+}
+#navigation li {
+	display: block;
+	font-weight: bold;
+	color: #FFFFFF;
+	background-color: #98bf21;
+	text-align: center;
+	text-transform: uppercase;
+	-moz-border-radius: 0px;
+	-webkit-border-radius: 10px 10px 0px 0px;
+	border-radius: 10px 10px 0px 0px;		
+}
+#navigation a:link, a:visited {
+	display: block;
+	width: 120px;
+	font-weight: bold;
+	color: #FFFFFF;
+	background-color: #98bf21;
+	padding: 8px;
+	text-align: center;
+	text-decoration: none;
+	text-transform: uppercase;
+	-moz-border-radius: 0px;
+	-webkit-border-radius: 10px 10px 0px 0px;
+	border-radius: 10px 10px 0px 0px; 
+	border: 2px #888 solid;
+}
+#navigation a:hover, a:active {
+	background-color: #7A991A;
+}
+#navigation2 ul {
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	overflow: hidden;
+}
+#navigation2 li {
+	display: block;
+	font-weight: bold;
+	color: #FFFFFF;
+	background-color: #98bf21;
+	text-align: center;
+	text-transform: uppercase;
+	-webkit-border-radius: 10px 10px 10px 10px;
+	border-radius: 10px 10px 10px 10px;		
+}
+#navigation2 a:link, a:visited {
+	display: block;
+	width: 150px;
+	font-weight: bold;
+	color: #FFFFFF;
+	background-color: #98bf21;
+	padding: 8px;
+	text-align: center;
+	text-decoration: none;
+	text-transform: uppercase;
+	-webkit-border-radius: 10px 10px 10px 10px;
+	border-radius: 10px 10px 10px 10px;	
+	border: 2px #888 solid;
+	padding: 15px;
+}
+#navigation2 a:hover, a:active {
+	background-color: #7A991A;
+}
+#welcome {
+	float: left;
+	padding: 8px;
+	margin-right: 20px;
+	border: 2px #888 solid;
+	min-width: 120px;
+}
+#activity {
+	float: left;
+	margin-right: 20px;
+}
+#home {
+	float: left;
+}
+#upload {
+	float: left;
+}
+#logout {
+	float: right;
+}
+#alert {
+	font-weight:bold;
+	color: red;
+}
+#register {
+	float: right;
+}
+#login {
+	float: right;
+	margin-left: 20px;
+}
+
+
+

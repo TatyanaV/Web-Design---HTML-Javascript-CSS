@@ -1,0 +1,73 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="UTF-8">
+	<title>Tatya</title>
+	<link rel="stylesheet" href="style.css">
+	<!--http://www.w3schools.com/tags/att_script_type.asp and http://www.w3schools.com/tags/att_img_src.asp-->
+	<script src="script.js"></script>
+		
+</head>
+<body>
+	
+	<fieldset>
+	<div>
+	<form>
+
+		<!--Users will be able to select, via check boxes, the langue of Gists they want to see. 
+		At a minimum this list will include Python, JSON, JavaScript and SQL 
+		http://www.w3schools.com/Html/tryit.asp?filename=tryhtml_checkbox-->
+		
+		<h1>Filter by Language:</h1>
+				<div>
+			<!--http://www.w3schools.com/tags/tag_option.asp
+			Users will be able to pick between 1 and 5 pages of results to display 
+			(a page is 30 results by default). You should use an appropriate input to facilitate this.-->
+			<h4>Number of Pages that you want to display:</h4> <select name="pages" id="pages">
+				<option value=1>1</option>
+				<option value=2>2</option>
+				<option value=3>3</option>
+				<option value=4>4</option>
+				<option value=5>5</option>
+			</select>
+			<label>(30 results per page)</label>
+		</div>
+		
+		<!--Number of Pages that you want to display: <input type="text" name="pages" id="pages">-->
+		<br><input type="checkbox" name="language" value="Python" id="Python">Python
+		<br><input type="checkbox" name="language" value="JSON" id="JSON">JSON
+		<br><input type="checkbox" name="language" value="JavaScript" id="JavaScript">JavaScript
+		<br><input type="checkbox" name="language" value="SQL" id="SQL">SQL
+	</form>
+	</div>
+	</fieldset>
+	<!--There should be a search button. Clicking on this button should 
+	initiate the search. Results should be displayed without requiring a page reload.-->
+	<br><input type="button" value="Search" onclick="searchGit()"> <br>
+	<!--seach results table-->
+	<br>
+	<fieldset>
+	
+	<div id="favoritesDiv">
+		<p>	<h3>Favorites</h3></p>
+		<table id="favoritesTable">	</table>
+	</div>
+	</fieldset>
+	
+	<fieldset>
+	<div id="searchResultsDiv">
+		<p>	<h3>Search Results </h3> </p>
+		<table id="resultsTable"> </table>
+	</div>
+	</fieldset>
+		<!--favorits table-->
+	<br>
+
+</body>
+</html>
+
+
+
+
+

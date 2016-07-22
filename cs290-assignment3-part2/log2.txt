@@ -1,0 +1,17 @@
+Start: Wed, 28 Jan 2015 18:15:20 -0800
+End: Wed, 28 Jan 2015 23:01:14 -0800
+Tasks: During this period I tired to figure out what the assignment was about.
+
+Start: Fri, 30 Jan 2015 09:00:00 -0800
+End: Fri, 30 Jan 2015 15:12:36 -0800
+Tasks: I've rewatched vidoes thinking that I'll get a getter idea how to do the assignment. I've also was doing tutorials
+on W3
+
+Start: Sat, 31 Jan 2015 14:05:51 -0800
+End: Sat, 31 Jan 2015 20:08:02 -0800
+Tasks: I tried to write a pseudo code and was not successful. Decided to do tutorial on codeacademy and that did not help.
+
+Start: Sun, 1 Feb 2015 13:00:00 -0800
+End: Mon, 2 Feb 2015 05:29:49 -0800
+Tasks: I had my html file, that was easily done. However, I had a lot of trouble with the js file. I looked at differnt blogs 
+other people code on the github trying to understand it. This assignment will be turned it late.

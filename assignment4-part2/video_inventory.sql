@@ -1,0 +1,7 @@
+CREATE TABLE video_inventory(
+	id INT PRIMARY KEY AUTO_INCREMENT ,
+	name VARCHAR( 255 ) UNIQUE NOT NULL ,
+	category VARCHAR( 255 ) ,
+	length INT,
+	rented INT NOT NULL DEFAULT 0
+) ENGINE = InnoDB;
